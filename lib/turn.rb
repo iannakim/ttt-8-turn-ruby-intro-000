@@ -9,8 +9,7 @@ def display_board(board)
 end
 
 def input_to_index(number)
-  puts number
-  if "#{number}".to_i != nil
+  if number.to_i != nil
     value = "#{number}".to_i - 1
   end
 end
