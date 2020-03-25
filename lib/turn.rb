@@ -17,8 +17,8 @@ def valid_move?(board, index)
 end
 
 def position_taken?(board, index)
-  if board[index].strip != ""
-    board[index].strip != nil
+  if board[index] != nil
+    board[index].strip != ""
   else
     false
   end
