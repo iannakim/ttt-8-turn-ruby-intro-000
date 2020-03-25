@@ -35,9 +35,6 @@ def turn(board)
   if position_taken?(board, index) == false
     move(board, index)
   else
-  puts "Please input again"
+    puts "Please input again"
   end
-end
-
-
 end
