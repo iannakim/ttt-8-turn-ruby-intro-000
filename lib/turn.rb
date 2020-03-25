@@ -13,7 +13,7 @@ def input_to_index(number)
 end
 
 def valid_move?(board, index)
-    index.between(0, 8) == true && position_taken?(board, index) == false
+    index.between?(0, 8) == true && position_taken?(board, index) == false
 end
 
 def position_taken?(board, index)
