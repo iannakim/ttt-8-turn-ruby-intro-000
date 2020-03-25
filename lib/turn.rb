@@ -37,6 +37,7 @@ def turn(board)
     display_board(board)
   else
     puts("invalid")
+    puts("1")
     turn(board)
   end
 end
