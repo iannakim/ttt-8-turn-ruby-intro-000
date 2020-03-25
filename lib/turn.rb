@@ -9,11 +9,7 @@ def display_board(board)
 end
 
 def input_to_index(number)
-  if number.to_i > 0
-    value = number.to_i - 1
-  else
-    -1
-  end
+  value = number.to_i - 1
 end
 
 def valid_move?(board, index)
