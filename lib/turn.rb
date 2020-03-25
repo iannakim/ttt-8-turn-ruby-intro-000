@@ -12,6 +12,8 @@ def input_to_index(number)
   puts number.to_i
   if number.to_i > 0
     value = number.to_i - 1
+  else
+    99
   end
 end
 
